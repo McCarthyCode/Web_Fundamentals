@@ -1,0 +1,43 @@
+* {
+    font-family: "Helvetica", "Arial", sans-serif;
+}
+ul {
+    list-style: none;
+}
+div.header h1 {
+    width: 970px;
+}
+div.header h1 {
+    width: auto;
+    display: inline-block;
+}
+h1.title {
+    margin-right: 262px;
+}
+div.container {
+    width: 970px;
+    background: -webkit-radial-gradient(#715864, #715864, #201115); /* Safari 5.1- 6.0 */
+    background: -o-radial-gradient(#715864, #715864, #201115); /* Opera 11.6-12.0 */
+    background: -moz-radial-gradient(#715864, #715864, #201115); /* Firefox 3.6-15 */
+    background: radial-gradient(#715864, #715864, #201115); /* Standard syntax */
+}
+img.photo {
+    width: 400px;
+    height: auto;
+}
+div.bio>* {
+    display: inline-block;
+}
+div.element {
+    width: 30%;
+}
+div.element>h3 {
+	background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
+    background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
+    background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
+    background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
+}
+img.screen {
+    width: 291px;
+    height: auto;
+}
