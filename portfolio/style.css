@@ -1,43 +1,107 @@
 * {
     font-family: "Helvetica", "Arial", sans-serif;
 }
-ul {
-    list-style: none;
-}
-div.header h1 {
+.container {
     width: 970px;
+    margin: 0 auto;
 }
-div.header h1 {
-    width: auto;
+.header h1, .header h2 {
     display: inline-block;
 }
-h1.title {
-    margin-right: 262px;
+.header h1{
+    width: 554px;
+    font-family: 'Comic Neue', 'Chalkboard SE', sans-serif;
 }
-div.container {
-    width: 970px;
+.page {
+    padding: 20px;
     background: -webkit-radial-gradient(#715864, #715864, #201115); /* Safari 5.1- 6.0 */
     background: -o-radial-gradient(#715864, #715864, #201115); /* Opera 11.6-12.0 */
     background: -moz-radial-gradient(#715864, #715864, #201115); /* Firefox 3.6-15 */
     background: radial-gradient(#715864, #715864, #201115); /* Standard syntax */
 }
-img.photo {
+.page > img {
     width: 400px;
     height: auto;
+    border: 5px solid #BFBFBF;
 }
-div.bio>* {
+.page img, .bio {
     display: inline-block;
+    vertical-align: top;
 }
-div.element {
-    width: 30%;
+.bio {
+    width: 485px;
+    margin-left: 30px;
 }
-div.element>h3 {
+.element {
+    display: inline-block;
+    vertical-align: top;
+    background: white;
+}
+.element h3, .element h4 {
+    margin: 0;
+    padding: 10px;
 	background: -webkit-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Safari 5.1- 6.0 */
     background: -o-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Opera 11.6-12.0 */
     background: -moz-linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Firefox 3.6-15 */
     background: linear-gradient(#bdbdbf, #888694, #bdbdbf); /* Standard syntax */
 }
-img.screen {
+.element h3, .text {
+    margin: 0;
+    padding: 10px;
+}
+.portfolio {
+    margin-top: 20px;
+}
+.portfolio .element {
+    width: 291px;
+}
+.portfolio .element:not(:first-child) {
+    margin-left: 24px;
+}
+.portfolio .element > img {
     width: 291px;
     height: auto;
+}
+.portfolio p {
+    padding: 10px;
+    height: 200px;
+    text-align: justify;
+}
+.portfolio ul {
+    margin: 16px 10px;
+    padding: 0;
+    list-style: none;
+}
+.portfolio li {
+    display: inline-block;
+}
+.portfolio li img {
+    width: 50px;
+}
+.portfolio a {
+    display: inline-block;
+    border: 1px solid #215440;
+    margin: 10px 82px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    background-color: #377E62;
+    text-decoration: none;
+}
+.footer {
+    text-align: center;
+}
+.footer li {
+    display: inline-block;
+}
+.contact li:not(:first-child) {
+    border-left: 1px solid black;
+    padding-left: 5px;
+}
+.footer img {
+    width: 20px;
+}
+.footer a {
+    font-style: italic;
+    color: black;
 }
