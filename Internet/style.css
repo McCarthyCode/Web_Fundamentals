@@ -1,0 +1,158 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+.header * {
+    display: inline-block;
+    vertical-align: top;
+}
+.header img {
+    width: 100px;
+    height: auto;
+}
+.header h1 {
+    margin: 24px 0;
+    color: #535353;
+    font-size: 3em;
+    font-weight: normal;
+}
+.header span {
+    color: #00639C;
+}
+.container > h1 {
+    margin: -24px 0;
+    padding: 12px 24px;
+    background: linear-gradient(#10649C, #4A81AA, #10649C);
+    color: white;
+    font-weight: normal;
+}
+.page {
+    margin-top: 24px;
+    background: linear-gradient(#E2E2E2, white, white, white);
+}
+.sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 250px;
+    padding: 0 5px;
+}
+.sidebar > * {
+    font-size: 1em;
+}
+.sidebar h2 {
+    padding-top: 40px;
+}
+.sidebar h2 span {
+    color: #E3001B;
+}
+.sidebar h3 span {
+    color: #00639C;
+}
+.sidebar button {
+    width: 100%;
+    margin-bottom: 2px;
+    padding: 8px;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px gray;
+    color: white;
+}
+button.blue {
+    background: linear-gradient(#5391BE, #15669E);
+}
+button.orange {
+    background: linear-gradient(#F0AB56, #EC7111);
+}
+.sidebar .divider {
+    width: 250px;
+    margin-top: 24px;
+    border-top: 1px solid gray;
+}
+.ad {
+    width: 250px;
+    background-image: url("images/ad_background.png");
+    color: white;
+    text-align: center;
+}
+.ad > * {
+    margin: 0 25px;
+}
+.ad h2 {
+    margin-top: 25px;
+    padding-top: 25px;
+}
+.ad img {
+    width: 150px;
+}
+.ad button {
+    width: 200px;
+    margin-bottom: 25px;
+    background: linear-gradient(#64D0DF,#00C8DE,#00C1DE);
+    box-shadow: 2px 2px 2px black;
+}
+.main {
+    width: 655px;
+    margin-left: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+.main h2 {
+    color: #00639C;
+}
+.title {
+    width: 455px;
+}
+.title > * {
+    display: inline-block;
+    vertical-align: top;
+}
+.title img {
+    width: 30px;
+    margin-top: 16px;
+}
+.main .header > img {
+    width: 40px;
+    margin-top: 6px;
+}
+.contact > * {
+    display: block;
+    text-align: right;
+}
+.contact h2, h5 {
+    margin: 0;
+}
+.contact h2 {
+    color: #00BFDE;
+}
+.contact h5 {
+    color: gray;
+    font-size: .6em;
+}
+.content span {
+    font-weight: bold;
+}
+.content > img {
+    width: 400px;
+    margin-left: 125px;
+}
+.box {
+    margin-bottom: 20px;
+    border: 3px solid #1F8FE2;
+    padding: 20px;
+    box-shadow: 2px 2px 2px gray;
+}
+.box > * {
+    display: inline-block;
+    vertical-align: top;
+}
+.box img {
+    width: 100px;
+}
+.box-content {
+    width: 400px;
+    padding-left: 20px;
+    font-size: 0.75em;
+}
