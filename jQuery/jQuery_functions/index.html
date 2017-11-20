@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Basic jQuery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/comic-neue" type="text/css">
+    <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+    <script src='script.js'></script>
+</head>
+<body>
+    <div class="container">
+        <h1>jQuery Reference</h1>
+        <div class="block">
+            <div class="buttons">
+                <button class="hide">Hide</button>
+                <button class="show">Show</button>
+            </div>
+            <div class="text">
+                <h2>.hide() and .show()</h2>
+                <p class="hide-show">
+                    Clicking the "Hide" button will hide this text.
+                    Clicking the "Show" button will show it.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <button class="toggle">Toggle</button>
+            <div class="text">
+                <h2>.toggle()</h2>
+                <p class="toggle">
+                    Clicking the "Toggle" button will hide this text
+                    if shown and show this text if hidden.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="buttons">
+                <button class="slide-up">Slide Up</button>
+                <button class="slide-down">Slide Down</button>
+            </div>
+            <div class="text">
+                <h2>.slideUp() and .slideDown()</h2>
+                <p class="slide-up-down">
+                    Clicking the "Slide Up" button will slide this text up.
+                    Clicking the "Slide Down" button will slide it down.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <button class="slide-toggle">Slide Toggle</button>
+            <div class="text">
+                <h2>.slideToggle()</h2>
+                <p class="slide-toggle">
+                    Clicking the "Slide Toggle" button will slide this text
+                    up or down, depending on whether or not it is hidden.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="buttons">
+                <button class="fade-out">Fade Out</button>
+                <button class="fade-in">Fade In</button>
+            </div>
+            <div class="text">
+                <h2>.fadeOut() and .fadeIn()</h2>
+                <p class="fade-in-out">
+                    Clicking the "Fade Out" button will fade this text out.
+                    Clicking the "Fade In" button will fade this text in.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="buttons">
+                <button class="add-class">Add Class</button>
+                <button class="remove-class">Remove Class</button>
+            </div>
+            <div class="text">
+                <h2>.addClass() and .removeClass()</h2>
+                <p class="add-remove-class">
+                    Clicking "Add Class" will add a CSS class to this text.
+                    Clicking "Remove Class" will remove it.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="buttons">
+                <button class="before">Before</button>
+                <button class="after">After</button>
+            </div>
+            <div class="text">
+                <h2>.before() and .after()</h2>
+                <p class="before-after">
+                    Clicking "Before" will add a paragraph before this text.
+                    Clicking "After" will add a paragraph after this text.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <button class="append">Append</button>
+            <div class="text">
+                <h2>.append()</h2>
+                <p class="append">
+                    Click "Append" to add text to this paragraph.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <button class="html">HTML</button>
+            <div class="text">
+                <h2>.html()</h2>
+                <p class="html">
+                    Click "HTML" to change the HTML content of this paragraph.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <button class="attr">Attr</button>
+            <div class="text">
+                <h2>.attr()</h2>
+                <p class="attr">
+                    Click the "Attr" button to change the href attribute of this link: <a href="http://bing.com">Search Engine</a>.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <div class="textbox-button">
+                <input class="val" type="text">
+                <button class="val">Val</button>
+            </div>
+            <div class="text">
+                <h2>.val()</h2>
+                <p class="val">
+                    Click the "Val" button to change the text inside the textbox.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <button class="txt">Text</button>
+            <div class="text">
+                <h2>.text()</h2>
+                <p class="txt">
+                    Click the "Text" button to change this paragraph.
+                </p>
+            </div>
+        </div>
+        <div class="block">
+            <button class="data">Data</button>
+            <div class="text">
+                <h2>.data()</h2>
+                <p class="data">
+                    Click the "Data" button to get an alert with a hidden data value.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
