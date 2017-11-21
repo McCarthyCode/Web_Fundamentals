@@ -1,0 +1,14 @@
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+td {
+    padding: 0;
+}
+td {
+    height: 244px;
+    width: 320px;
+}
+button {
+    display: block;
+}
