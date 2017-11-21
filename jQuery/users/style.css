@@ -1,0 +1,20 @@
+.container {
+    margin: 0 auto;
+    width: 970px;
+}
+table {
+    border-collapse: collapse;
+    border: 0;
+}
+th, td {
+    width: 200px;
+}
+.values tbody tr {
+    border-bottom: 1px solid black;
+}
+h1 {
+    margin-left: 190px;
+}
+form th, form td {
+    text-align: right;
+}
