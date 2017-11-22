@@ -1,0 +1,17 @@
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+.images {
+    text-align: center;
+}
+.images img {
+    width: 200px;
+    margin: 10px;
+}
+.description {
+    width: 400px;
+    margin: 30px auto 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+}
