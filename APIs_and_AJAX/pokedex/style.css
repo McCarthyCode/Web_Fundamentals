@@ -1,0 +1,25 @@
+.container {
+    width: 970px;
+    margin: 0 auto;
+}
+.container > * {
+    display: inline-block;
+    vertical-align: top;
+}
+.thumbs {
+    width: 636px;
+    text-align: center;
+}
+.feature {
+    position: fixed;
+    width: 250px;
+    height: 500px;
+    border: 20px solid red;
+    padding: 20px;
+}
+.feature h1, .feature li {
+    text-transform: capitalize;
+}
+.center {
+    text-align: center;
+}
